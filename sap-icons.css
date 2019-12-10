@@ -2,9 +2,9 @@
 @font-face {
 	font-family: 'SAP-icons';
 	src:
-		url('https://michadelic.github.io/CustomFontsSAC/SAP-icons.woff2') format('woff2'),
-		url('https://michadelic.github.io/CustomFontsSAC/SAP-icons.woff') format('woff'),
-		url('https://michadelic.github.io/CustomFontsSAC/SAP-icons.ttf') format('truetype'),
+		url('https://michadelic.github.io/CustomFontsSAC/sap-icons.woff2') format('woff2'),
+		url('https://michadelic.github.io/CustomFontsSAC/sap-icons.woff') format('woff'),
+		url('https://michadelic.github.io/CustomFontsSAC/sap-icons.ttf') format('truetype'),
 		local('SAP-icons');
 	font-weight: normal;
 	font-style: normal;
