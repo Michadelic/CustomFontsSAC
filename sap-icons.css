@@ -1,0 +1,32 @@
+/* SAP-icons */
+@font-face {
+  font-family: 'SAP Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url('sap-icons.woff2') format('woff2');
+}
+
+
+/* SAP-icons */
+/*@font-face {
+	font-family: 'SAP-icons';
+	font-style: normal;
+	font-weight: 400;
+	display: swap;
+	src:
+		url('https://customfontsac-d050079trial.dispatcher.hanatrial.ondemand.com/sap-icons.woff2') format('woff2'),
+		url('https://customfontsac-d050079trial.dispatcher.hanatrial.ondemand.com/sap-icons.woff') format('woff'),
+		url('https://customfontsac-d050079trial.dispatcher.hanatrial.ondemand.com/sap-icons.ttf') format('truetype'),
+		local('SAP-icons');
+}*/
+
+/*@font-face {
+	font-family: 'SAP-icons';
+	src:
+		url('https://sapui5.hana.ondemand.com/resources/sap/ui/core/themes/base/fonts/SAP-icons.woff2') format('woff2'),
+		url('https://sapui5.hana.ondemand.com/resources/sap/ui/core/themes/base/fonts/SAP-icons.woff') format('woff'),
+		url('https://sapui5.hana.ondemand.com/resources/sap/ui/core/themes/base/fonts/SAP-icons.ttf') format('truetype'),
+		local('SAP-icons');
+	font-weight: normal;
+	font-style: normal;
+}*/
