@@ -2,12 +2,11 @@
 
 /* SAP Fiori Icons */
 @font-face {
-	font-family: 'SAP-icons';
+	font-family: 'SAP Fiori Icons';
 	src:
 		url('https://ui5.sap.com/resources/sap/ui/core/themes/base/fonts/SAP-icons.woff2') format('woff2'),
 		url('https://ui5.sap.com/resources/sap/ui/core/themes/base/fonts/SAP-icons.woff') format('woff'),
-		url('https://ui5.sap.com/resources/sap/ui/core/themes/base/fonts/SAP-icons.ttf') format('truetype'),
-		local('SAP-icons');
+		url('https://ui5.sap.com/resources/sap/ui/core/themes/base/fonts/SAP-icons.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
