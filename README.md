@@ -7,7 +7,7 @@ The `gh-pages` branch hosts the SAP Fiori icon font released with [OpenUI5](http
 
 ## Instructions
 
-1. To use the SAP Fiori Icon Font in SAP Analytics Cloud, host a simple [font definition file](https://michadelic.github.io/CustomFontsSAC/sap-icons.css) on a public server.
+1. To use the SAP Fiori Icon Font in SAP Analytics Cloud, host a simple [font definition file](https://michadelic.github.io/CustomFontsSAC/sap-icons.css) on a public server and add it to the SAC custom web font settings (see documentation link below).
 
    ![Add font definition](images/addFont.png)
 
