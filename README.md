@@ -7,21 +7,36 @@ The `gh-pages` branch hosts the SAP Fiori icon font released with [OpenUI5](http
 
 ## Instructions
 
-1. To use the SAP Fiori Icon Font in SAP Analytics Cloud, host a simple [font definition file](https://michadelic.github.io/CustomFontsSAC/SAP-icons.css) on a public server and add it to the SAC custom web font settings (see documentation link below).
+1. To use the SAP Fiori Icon Font in SAP Analytics Cloud, host a simple [font definition file](https://michadelic.github.io/CustomFontsSAC/SAP-icons.css) on a public server:
+
+ ``` css
+ /* SAP Fiori Icons */
+ @font-face {
+   font-family: 'SAP Fiori Icons';
+   src:
+     url('https://michadelic.github.io/CustomFontsSAC/SAP-icons.woff2') format('woff2'),
+     url('https://michadelic.github.io/CustomFontsSAC/SAP-icons.woff') format('woff'),
+     url('https://michadelic.github.io/CustomFontsSAC/SAP-icons.ttf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+ }
+ ```
+
+2. Add the font definition URL to the SAC custom web font settings (see documentation link below).
 
    ![Add font definition](images/addFont.png)
 
-2. Download the three font files `sap-icons.ttf`, `sap-icons.woff`, `sap-icons.woff2` from the latest UI5 shipment and put it right next to the definition file.
+3. Download the three font files `sap-icons.ttf`, `sap-icons.woff`, `sap-icons.woff2` from the latest UI5 shipment and put it right next to the definition file.
 
    * [SAP-Icons.woff2](https://sapui5.hana.ondemand.com/resources/sap/ui/core/themes/base/fonts/SAP-icons.woff2)
    * [SAP-Icons.woff](https://sapui5.hana.ondemand.com/resources/sap/ui/core/themes/base/fonts/SAP-icons.woff)
    * [SAP-Icons.ttf](https://sapui5.hana.ondemand.com/resources/sap/ui/core/themes/base/fonts/SAP-icons.ttf)
 
-3. Add the hostname where the font is located to the *Trusted Origins* in the SAP Analytics Cloud Administration page.
+4. Add the hostname where the font is located to the *Trusted Origins* in the SAP Analytics Cloud Administration page.
 
    ![Add trusted origin](images/trustedOrigin.png)
 
-4. Done! You are now ready to use the SAP Fiori icon font in your SAP Analytics Cloud stories:
+5. Done! You are now ready to use the SAP Fiori icon font in your SAP Analytics Cloud stories:
 
    ![Use custom icon](images/customIcon.png)
 
