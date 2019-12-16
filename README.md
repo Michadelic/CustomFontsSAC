@@ -22,15 +22,15 @@ The `gh-pages` branch hosts the SAP Fiori icon font released with [OpenUI5](http
  }
  ```
 
-2. Add the font definition URL to the SAC custom web font settings (see documentation link below).
-
-   ![Add font definition](images/addFont.png)
-
-3. Download the three font files `sap-icons.ttf`, `sap-icons.woff`, `sap-icons.woff2` from the latest UI5 shipment and put it right next to the definition file.
+2. Download the three font files `sap-icons.ttf`, `sap-icons.woff`, `sap-icons.woff2` from the latest UI5 shipment and put it right next to the definition file.
 
    * [SAP-Icons.woff2](https://sapui5.hana.ondemand.com/resources/sap/ui/core/themes/base/fonts/SAP-icons.woff2)
    * [SAP-Icons.woff](https://sapui5.hana.ondemand.com/resources/sap/ui/core/themes/base/fonts/SAP-icons.woff)
    * [SAP-Icons.ttf](https://sapui5.hana.ondemand.com/resources/sap/ui/core/themes/base/fonts/SAP-icons.ttf)
+
+3. Add the font definition URL to the SAC custom web font settings (see documentation link below).
+
+   ![Add font definition](images/addFont.png)
 
 4. Add the hostname where the font is located to the *Trusted Origins* in the SAP Analytics Cloud Administration page.
 
