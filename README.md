@@ -14,9 +14,9 @@ The `gh-pages` branch hosts the SAP Fiori icon font released with [OpenUI5](http
  @font-face {
    font-family: 'SAP Fiori Icons';
    src:
-     url('https://michadelic.github.io/CustomFontsSAC/SAP-icons.woff2') format('woff2'),
-     url('https://michadelic.github.io/CustomFontsSAC/SAP-icons.woff') format('woff'),
-     url('https://michadelic.github.io/CustomFontsSAC/SAP-icons.ttf') format('truetype');
+     url('https://<yourserver>/path/to/SAP-icons.woff2') format('woff2'),
+     url('https://<yourserver>/path/to/SAP-icons.woff') format('woff'),
+     url('https://<yourserver>/path/to/SAP-icons.ttf') format('truetype');
    font-weight: normal;
    font-style: normal;
  }
