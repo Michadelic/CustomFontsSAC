@@ -1,0 +1,8 @@
+/* Bosch Font */
+@font-face {
+  font-family: 'BoschSans';
+  src:
+    url('https://brandguide-cdn.azureedge.net/fonts/BoschSans-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
