@@ -1,5 +1,8 @@
 # CustomFontsSAC
 
+> **OUTDATED - Please use official UI5 CDN instead of this repository:** While hosting the font file yourself will still work, meanwhile there is a much simpler way using the official UI5 CDN. The font definition file is included in the UI5 shipment and can be linked directley from SAC. Please use this URL to link the font:
+[https://ui5.sap.com/resources/sap/ui/core/themes/base/SAP-icons.css](https://ui5.sap.com/resources/sap/ui/core/themes/base/SAP-icons.css)
+
 Demo repository to showcase usage of custom icon fonts in SAC.<br/>
 The `gh-pages` branch hosts the SAP Fiori icon font released with [OpenUI5](https://openui5.org/).
 
@@ -31,6 +34,9 @@ The `gh-pages` branch hosts the SAP Fiori icon font released with [OpenUI5](http
 3. Add the font definition URL to the SAC custom web font settings (see documentation link below).
 
    ![Add font definition](images/addFont.png)
+   
+> **OUTDATED - Please use official UI5 CDN instead of this repository:** While hosting the font file yourself will still work, meanwhile there is a much simpler way using the official UI5 CDN. The font definition file is included in the UI5 shipment and can be linked directley from SAC. Please use this URL to link the font:
+[https://ui5.sap.com/resources/sap/ui/core/themes/base/SAP-icons.css](https://ui5.sap.com/resources/sap/ui/core/themes/base/SAP-icons.css)
 
 4. Add the hostname where the font is located to the *Trusted Origins* in the SAP Analytics Cloud Administration page.
 
